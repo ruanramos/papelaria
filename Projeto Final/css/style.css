@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.barra-superior {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #13D4D4;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #3F4D5C;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+li a {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav ul li{
+    display: inline-flex;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.produto {
+}
+
+.linha-divisoria {
+    border-color: lightgray;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
